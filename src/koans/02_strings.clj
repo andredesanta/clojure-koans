@@ -10,7 +10,7 @@
   (= "world" (str 'world))
 
   "You can do more than create strings, you can put them together"
-  (= "Cool right?" (str "Cool" "right"))
+  (= "Cool right?" (str "Cool " "right?"))
 
   "You can even get certain characters"
   (= \C (get "Characters" 0))
